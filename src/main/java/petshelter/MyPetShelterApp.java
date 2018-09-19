@@ -10,12 +10,12 @@ public class MyPetShelterApp {
 
 		PetShelter myPets = new PetShelter();
 
-		myPets.add(new VirtualPet("chui", "Has dark spots and is quiet.", 5, 4, 3));
-		myPets.add(new VirtualPet("duma", "The fast with brown spots.", 4, 5, 6));
-		myPets.add(new VirtualPet("kifaru", "The angrier in the shelter.", 2, 8, 5));
-		myPets.add(new VirtualPet("nyati", "Is a vegeterian.", 8, 1, 6));
-		myPets.add(new VirtualPet("simba", "Has a huge mane.", 3, 3, 2));
-		myPets.add(new VirtualPet("tembo", "The tusker with a trunk.", 7, 9, 5));
+		myPets.add(new VirtualPet("chui", "Leopard - Has dark spots and is quiet.", 5, 4, 3));
+		myPets.add(new VirtualPet("duma", "Cheetah - The fast with brown spots.", 4, 5, 6));
+		myPets.add(new VirtualPet("kifaru", "Rhino - The angrier in the shelter.", 2, 8, 5));
+		myPets.add(new VirtualPet("nyati", "Cape Buffalo - Is a vegeterian.", 8, 1, 6));
+		myPets.add(new VirtualPet("simba", "Lion - Has a huge mane.", 3, 3, 2));
+		myPets.add(new VirtualPet("tembo", "Elephant - The tusker with a trunk.", 7, 9, 5));
 
 		System.out.println("Thank you for volunteering at Masha's Pet Shelter!");
 		System.out.println();
