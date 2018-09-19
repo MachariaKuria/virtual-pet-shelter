@@ -64,8 +64,9 @@ public class MyPetShelterApp {
 						if(myPets.findPet(petToPlayWith.toLowerCase()) != null) {
 							System.out.println("Enter the playtime as integer!");
 							int playTime = input.nextInt();
+							input.nextLine();
 							myPets.playWithPet(petToPlayWith, playTime);
-							myPets.petStatus();							
+							myPets.petStatus();	
 						}else {
 							System.out.println("Pet doesn't exist.");
 						}
